@@ -3,7 +3,7 @@ on: [push]
   
 jobs:
   sigma_code_scanning_run_steps:
-    runs-on: ubuntu-latest
+    runs-on: macos-latest
     container:
       image: docker.io/pavanboggarapu/security:latest
       credentials:
